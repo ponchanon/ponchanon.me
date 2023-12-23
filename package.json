@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://ponchanon.github.io/ponchanon.github.io",
+  "homepage": "https://ponchanon.github.io/ponchanon.me",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://ponchanon.github.io/ponchanon.github.io'",
+    "build-gh": "parcel build --public-url 'https://ponchanon.github.io/ponchanon.me'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
